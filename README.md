@@ -6,5 +6,7 @@ Java project with focus on learning how to get HTML objects. Will attempt to rec
 
 ## TODO:
 Read and Write statistics to file. 
+
 Add mathematical modell for future cases
+
 More data from different websites
