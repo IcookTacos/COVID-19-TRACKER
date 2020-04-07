@@ -20,9 +20,11 @@ public class GetCases {
 			String line;
 			while ((line = br.readLine()) != null) {
 				if (line.contains("Coronavirus:")) {
+					
 					//System.out.println(line);			//DEBUGGING
 					//System.out.println("STOPPED");	//DEBUGGING
 					//System.out.println("CASES");		//DEBUGGING
+					
 					cases = getCases(line);
 					break;		
 				}
@@ -30,7 +32,7 @@ public class GetCases {
 			
 			caseSwe = new String(cases);
 			x = str2int(caseSwe);
-			System.out.print(x);
+			System.out.println(x);
 			
 			// EXCEPTIONS
 			} catch (MalformedURLException e) 	{e.printStackTrace();	throw new MalformedURLException("URL is malformed!!");
